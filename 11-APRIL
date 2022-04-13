@@ -1,0 +1,10 @@
+CREATE TABLE student2 ( ROLL NUMBER ( 2 ), NAME VARCHAR2 ( 10 ) );
+INSERT INTO student2
+VALUES
+	( 4, 'aman', );
+SELECT
+	* 
+FROM
+	student2 
+WHERE
+	name LIKE 'a___';
